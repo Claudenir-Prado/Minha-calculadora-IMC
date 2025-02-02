@@ -1,0 +1,84 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-color: beige;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: yellow;
+  width: 400px;
+  height: 600px;
+  border-radius: 10px;
+}
+.title {
+  display: flex;
+  text-align: center;
+}
+.title h1 {
+  border-bottom: solid 3px #000;
+  width: 100%;
+  margin: 0 auto;
+}
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input input {
+  width: 120px;
+  height: 25px;
+  border-radius: 5px;
+  border: none;
+}
+.input label {
+  margin-right: 20px;
+  font-size: 18px;
+}
+button {
+  background-color: #000;
+  width: 300px;
+  border: none;
+  height: 30px;
+  color: yellow;
+  margin: 0 auto;
+  font-size: 18px;
+  border-radius: 3px;
+}
+.result {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  width: 300px;
+  height: 250px;
+  margin: 0 auto;
+  border-radius: 5px;
+  color: yellow;
+}
+@media (max-width: 425px) {
+  main .container {
+    width: 420px;
+    height: 475px;
+  }
+}
+@media (max-width: 375px) {
+  main .container {
+    width: 370px;
+    height: 475px;
+  }
+}
+@media (max-width: 320px) {
+  main .container {
+    width: 300px;
+    height: 500px;
+  }
+}
