@@ -67,21 +67,21 @@ button {
 @media (max-width: 425px) {
   .container {
     width: 420px;
-    height: 475px;
+    height: 600px;
     background-color: blue;
   }
 }
 @media (max-width: 375px) {
   .container {
     width: 370px;
-    height: 475px;
+    height: 580px;
     background-color: blue;
   }
 }
 @media (max-width: 320px) {
   .container {
     width: 300px;
-    height: 500px;
+    height: 560px;
     background-color: blue;
   }
 }
